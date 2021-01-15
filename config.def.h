@@ -1,7 +1,7 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define MOD Mod4Mask
+#define MOD Mod1Mask
 
 const char* menu[]    = {"dmenu_run",      0};
 const char* term[]    = {"st",             0};
