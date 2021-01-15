@@ -6,8 +6,8 @@
 const char* menu[]    = {"dmenu_run",      0};
 const char* term[]    = {"st",             0};
 const char* scrot[]   = {"scr",            0};
-const char* briup[]   = {"bri", "10", "+", 0};
-const char* bridown[] = {"bri", "10", "-", 0};
+const char* briup[]   = {"brightnessctl", "s", "5%+", 0};
+const char* bridown[] = {"brightnessctl", "s", "5%-", 0};
 const char* voldown[] = {"amixer", "sset", "Master", "5%-",         0};
 const char* volup[]   = {"amixer", "sset", "Master", "5%+",         0};
 const char* volmute[] = {"amixer", "sset", "Master", "toggle",      0};
